@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+header a {
+  color: #4db8ff;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+#editor {
+  width: 100%;
+  height: calc(100vh - 70px); /* Adjust height to account for header */
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  outline: none;
+}

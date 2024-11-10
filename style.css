@@ -42,4 +42,5 @@ header a:hover {
   line-height: 1.5;
   white-space: pre-wrap;
   outline: none;
+  user-select: none;
 }
